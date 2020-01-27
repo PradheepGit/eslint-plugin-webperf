@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-webperf",
+  "version": "0.0.2",
+  "description": "Plugin for rules enhancing web performance",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Pradheep",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0",
+    "espree": "^6.1.1",
+    "esutils": "^2.0.2",
+    "escape-string-regexp":"^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
